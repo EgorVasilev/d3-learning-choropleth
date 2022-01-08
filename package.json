@@ -1,0 +1,30 @@
+{
+  "name": "choropleth",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url '.'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1",
+    "prettier": "^2.4.1",
+    "scss": "^0.2.4"
+  },
+  "dependencies": {
+    "d3": "^7.1.1",
+    "topojson": "^3.0.2"
+  }
+}
